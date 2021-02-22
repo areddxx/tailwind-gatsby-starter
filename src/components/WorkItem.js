@@ -4,9 +4,9 @@ const WorkItem = (props) => {
   return (
     <>
       <div className="work-item mb-2 py-2">
-        <h3 className="text-teal-500 font-medium text-xl">
+        <h2 className="text-teal-500 font-medium text-xl">
           <a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a>
-        </h3>
+        </h2>
         <p className="text-gray-700">{props.about}
           <span className="text-gray-600 ml-3">{props.where}</span>
         </p>
