@@ -8,7 +8,7 @@ const WorkItem = (props) => {
           <a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a>
         </h2>
         <p className="text-gray-700">{props.about}
-          <span className="text-gray-600 ml-3">{props.where}</span>
+          <span className="text-gray-700 italic ml-3"> | {props.where}</span>
         </p>
       </div>
     </>
