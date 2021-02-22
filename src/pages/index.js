@@ -9,7 +9,7 @@ export default () => {
       <main>
 
             <PageHeader title="Hi, I'm Austin Redd" />
-            <p className="mt-8 text-2xl night-100 sm:mt-8">
+            <p className="text-2xl night-100">
             UI developer & designer, based in Niwot, Colorado. <span className="block">Currently working at ToolStudios.</span>
             </p>
             <div className="mt-8 block">

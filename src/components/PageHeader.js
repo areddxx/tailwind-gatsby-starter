@@ -3,7 +3,7 @@ import React from "react"
 const PageHeader = (props) => {
   return (
     <>
-      <div>
+      <div className="mb-8">
         <h1 className="page-heading night-100">
           {props.title}
         </h1>
