@@ -2,11 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .page-heading {
   @apply pt-10;
   @apply pb-5;
-  @apply text-2xl;
-  @apply text-teal-500;
+  @apply text-3xl;
+  @apply text-blue-800;
   @apply font-bold;
 }
 
+main {
+  @apply max-w-4xl;
+  @apply flex-grow;
+  @apply flex;
+  @apply flex-col;
+  @apply mt-10;
+  @apply px-10;
+}
+
+.bg-night-100 {
+  background-color: #3B415C;
+}
+
+.bg-night-200 {
+  background-color: #292D3E;
+}
+
+.bg-night-300 {
+  background-color: #292D3E;
+}
+
+.night-100 {
+  color: #D8D8D8;
+}
+
+.text-blue-700 {
+  color: #89DDFF;
+}
+.text-gray-700 {
+  color: #D8D8D8;
+}
+
+.text-gray-600 {
+  color: #546E7A;
+}
