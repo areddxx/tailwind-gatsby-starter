@@ -7,8 +7,8 @@ const WorkItem = (props) => {
         <h2 className="text-teal-500 font-medium text-xl">
           <a href={props.link} target="_blank" rel="noopener noreferrer">{props.title}</a>
         </h2>
-        <p className="text-gray-700">{props.about}
-          <span className="text-gray-700 italic ml-3"> | {props.where}</span>
+        <p className="text-gray-700">
+        {props.about} | {props.where}
         </p>
       </div>
     </>
