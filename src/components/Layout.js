@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
           </nav>
         </header>
         {children}
-        <footer className="py-2 text-center text-gray-600 text-xs">
+        <footer className="py-3 text-center text-gray-700 text-sm">
           &copy; Austin Redd {new Date().getFullYear()}
         </footer>
       </div>
