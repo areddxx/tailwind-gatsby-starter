@@ -6,9 +6,9 @@ const { theme } = resolveConfig(tailwindConfig)
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Tailwind CSS",
-    author: "Melanie Nolan",
-    description: "A Gatsby starter to set you up with Tailwind CSS",
+    title: "Austin Redd UI Designer & Developer",
+    author: "Austin Redd",
+    description: "Personal site of Austin Redd a UI Designer & Developer",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -18,8 +18,8 @@ module.exports = {
         name: "Gatsby Starter Tailwind CSS",
         short_name: "Gatsby Starter Tailwind CSS",
         start_url: "/",
-        background_color: theme.colors.white,
-        theme_color: theme.colors.teal[500],
+        background_color: "#292D3E",
+        theme_color: "#38b2ac",
         icon: "static/icon.svg",
       },
     },
